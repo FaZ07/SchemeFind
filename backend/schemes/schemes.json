@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "PM Kisan Samman Nidhi",
+    "description": "Direct income support of ₹6,000/year to small and marginal farmers in three equal instalments.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefits": "₹6,000 per year directly to bank account in 3 instalments of ₹2,000 each.",
+    "how_to_apply": "Apply at local Common Service Centre (CSC) or pmkisan.gov.in",
+    "official_link": "https://pmkisan.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["farmer"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ayushman Bharat PM-JAY",
+    "description": "World's largest health insurance scheme providing ₹5 lakh health cover per family per year for secondary and tertiary hospitalisation.",
+    "ministry": "Ministry of Health & Family Welfare",
+    "benefits": "₹5 lakh health insurance cover per year. Covers 1,929 medical procedures.",
+    "how_to_apply": "Visit nearest empanelled hospital or check eligibility at pmjay.gov.in",
+    "official_link": "https://pmjay.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 200000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 3,
+    "name": "PM Awas Yojana - Gramin (PMAY-G)",
+    "description": "Provides financial assistance to rural households to construct pucca houses with basic amenities.",
+    "ministry": "Ministry of Rural Development",
+    "benefits": "₹1.20 lakh (plain areas) or ₹1.30 lakh (hilly/NE/difficult areas) for house construction.",
+    "how_to_apply": "Apply through Gram Panchayat or pmayg.nic.in",
+    "official_link": "https://pmayg.nic.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 150000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 4,
+    "name": "PM Awas Yojana - Urban (PMAY-U)",
+    "description": "Housing for All urban mission providing subsidy on home loans for EWS/LIG/MIG categories.",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "benefits": "Interest subsidy of up to 6.5% on home loans. Credit linked subsidy up to ₹2.67 lakh.",
+    "how_to_apply": "Apply through banks, housing finance companies, or pmaymis.gov.in",
+    "official_link": "https://pmaymis.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 1800000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "description": "Small savings scheme for the girl child offering attractive interest rates and tax benefits.",
+    "ministry": "Ministry of Finance",
+    "benefits": "8.2% interest rate (2024), tax exemption under Section 80C. Matures when girl turns 21.",
+    "how_to_apply": "Open account at any post office or authorised bank with birth certificate of girl child.",
+    "official_link": "https://www.nsiindia.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 10,
+      "gender": "female",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Beti Bachao Beti Padhao",
+    "description": "Scheme to address declining child sex ratio and promote welfare of the girl child through education.",
+    "ministry": "Ministry of Women & Child Development",
+    "benefits": "Scholarships, awareness campaigns, education support for girl child.",
+    "how_to_apply": "Contact local Anganwadi or district administration.",
+    "official_link": "https://wcd.nic.in/bbbp-schemes",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 18,
+      "gender": "female",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 7,
+    "name": "PM Mudra Yojana (PMMY)",
+    "description": "Provides loans up to ₹10 lakh to non-corporate, non-farm small/micro enterprises.",
+    "ministry": "Ministry of Finance",
+    "benefits": "Shishu: up to ₹50K | Kishor: ₹50K–5L | Tarun: ₹5L–10L. No collateral required.",
+    "how_to_apply": "Apply at any bank, MFI, or mudra.org.in",
+    "official_link": "https://www.mudra.org.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 65,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["self_employed", "entrepreneur", "small_business"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 8,
+    "name": "PM Fasal Bima Yojana (PMFBY)",
+    "description": "Crop insurance scheme providing financial support to farmers suffering crop loss due to unforeseen calamities.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefits": "Insurance cover for crop loss. Premium: 2% for Kharif, 1.5% for Rabi, 5% for commercial crops.",
+    "how_to_apply": "Apply through bank, CSC or pmfby.gov.in before crop season.",
+    "official_link": "https://pmfby.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["farmer"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 9,
+    "name": "PM Jan Dhan Yojana (PMJDY)",
+    "description": "Financial inclusion program ensuring access to financial services like banking, insurance, and pension.",
+    "ministry": "Ministry of Finance",
+    "benefits": "Zero balance account, RuPay debit card, ₹2 lakh accident insurance, ₹30K life cover, overdraft up to ₹10K.",
+    "how_to_apply": "Visit any bank branch with Aadhaar and photo ID.",
+    "official_link": "https://pmjdy.gov.in",
+    "eligibility": {
+      "min_age": 10,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Atal Pension Yojana (APY)",
+    "description": "Government-backed pension scheme for unorganised sector workers guaranteeing pension of ₹1,000–₹5,000/month.",
+    "ministry": "Ministry of Finance",
+    "benefits": "Guaranteed pension of ₹1K–₹5K/month after age 60. Spouse gets same pension after subscriber's death.",
+    "how_to_apply": "Apply at any bank or post office with savings account.",
+    "official_link": "https://npscra.nsdl.co.in/scheme-details.php",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 40,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 11,
+    "name": "PM Ujjwala Yojana (PMUY)",
+    "description": "Provides free LPG connections to women from Below Poverty Line (BPL) households.",
+    "ministry": "Ministry of Petroleum & Natural Gas",
+    "benefits": "Free LPG connection with first refill and hotplate. Reduces health hazards from wood/coal cooking.",
+    "how_to_apply": "Apply at nearest LPG distributor or pmuy.gov.in",
+    "official_link": "https://pmuy.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "female",
+      "income_max": 150000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Stand Up India",
+    "description": "Facilitates bank loans between ₹10 lakh and ₹1 crore for SC/ST and women entrepreneurs.",
+    "ministry": "Ministry of Finance",
+    "benefits": "Loans from ₹10 lakh to ₹1 crore for greenfield enterprises. 7-year repayment period.",
+    "how_to_apply": "Apply at standupmitra.in or at any bank branch.",
+    "official_link": "https://www.standupmitra.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["sc", "st", "general", "obc"],
+      "occupations": ["entrepreneur", "self_employed", "small_business"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 13,
+    "name": "PM Scholarship Scheme (PMSS)",
+    "description": "Scholarship for wards of ex-servicemen and ex-coast guard personnel for professional degree courses.",
+    "ministry": "Ministry of Defence",
+    "benefits": "₹3,000/month for boys, ₹3,500/month for girls for professional courses.",
+    "how_to_apply": "Apply at ksb.gov.in",
+    "official_link": "https://ksb.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 25,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 14,
+    "name": "PM Matru Vandana Yojana (PMMVY)",
+    "description": "Maternity benefit program providing cash incentives to pregnant and lactating women.",
+    "ministry": "Ministry of Women & Child Development",
+    "benefits": "₹5,000 in instalments for first live birth. Nutritional support during pregnancy.",
+    "how_to_apply": "Register at nearest Anganwadi centre or health facility.",
+    "official_link": "https://wcd.nic.in",
+    "eligibility": {
+      "min_age": 19,
+      "max_age": 99,
+      "gender": "female",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 15,
+    "name": "PM SVANidhi (Street Vendor Loan)",
+    "description": "Micro-credit facility for street vendors to resume livelihoods affected by COVID-19.",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "benefits": "Working capital loan: ₹10K (1st), ₹20K (2nd), ₹50K (3rd). Interest subsidy of 7%.",
+    "how_to_apply": "Apply at pmsvanidhi.mohua.gov.in or through urban local body.",
+    "official_link": "https://pmsvanidhi.mohua.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 300000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["street_vendor"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 16,
+    "name": "PM Vishwakarma Yojana",
+    "description": "Support scheme for artisans and craftspeople (Vishwakarmas) with skill training, loans and market access.",
+    "ministry": "Ministry of MSME",
+    "benefits": "₹15K toolkit incentive, skill training stipend ₹500/day, collateral-free loan up to ₹3 lakh at 5% interest.",
+    "how_to_apply": "Register at pmvishwakarma.gov.in via CSC.",
+    "official_link": "https://pmvishwakarma.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["artisan", "craftsman"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 17,
+    "name": "National Scholarship Portal (NSP) - Post Matric SC",
+    "description": "Post-matric scholarship for SC students to support higher education.",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "benefits": "Full tuition fee + maintenance allowance. Covers courses from Class 11 to PhD.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 35,
+      "gender": "all",
+      "income_max": 250000,
+      "categories": ["sc"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 18,
+    "name": "National Scholarship Portal (NSP) - Post Matric ST",
+    "description": "Post-matric scholarship for ST students pursuing higher education.",
+    "ministry": "Ministry of Tribal Affairs",
+    "benefits": "Tuition fee reimbursement + maintenance allowance for ST students.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 35,
+      "gender": "all",
+      "income_max": 250000,
+      "categories": ["st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 19,
+    "name": "NSP - OBC Pre-Matric Scholarship",
+    "description": "Pre-matric scholarship for OBC students to encourage school education.",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "benefits": "₹1,000–₹3,500/year scholarship for OBC students in Class 1–10.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 5,
+      "max_age": 16,
+      "gender": "all",
+      "income_max": 100000,
+      "categories": ["obc"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 20,
+    "name": "PM Kaushal Vikas Yojana (PMKVY)",
+    "description": "Skill development scheme to enable youth to take up industry-relevant training and get certified.",
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "benefits": "Free skill training with certification. Average training duration: 3 months. Placement assistance.",
+    "how_to_apply": "Register at pmkvyofficial.org or nearest PMKVY training centre.",
+    "official_link": "https://www.pmkvyofficial.org",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 45,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["unemployed", "student", "all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 21,
+    "name": "PMEGP (PM Employment Generation Programme)",
+    "description": "Credit-linked subsidy programme for setting up new micro-enterprises in non-farm sector.",
+    "ministry": "Ministry of MSME",
+    "benefits": "25–35% subsidy on project cost up to ₹50 lakh (manufacturing) / ₹20 lakh (service).",
+    "how_to_apply": "Apply at kviconline.gov.in",
+    "official_link": "https://www.kviconline.gov.in/pmegpeportal",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["entrepreneur", "self_employed"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Startup India Seed Fund",
+    "description": "Financial assistance to startups for proof of concept, prototype development and market entry.",
+    "ministry": "Ministry of Commerce & Industry",
+    "benefits": "Up to ₹20 lakh for proof of concept; up to ₹50 lakh for market entry/commercialisation.",
+    "how_to_apply": "Apply at startupindia.gov.in",
+    "official_link": "https://www.startupindia.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 45,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["entrepreneur"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "description": "Life insurance scheme offering ₹2 lakh cover at just ₹436/year.",
+    "ministry": "Ministry of Finance",
+    "benefits": "₹2 lakh death benefit. Annual premium of only ₹436.",
+    "how_to_apply": "Enroll through bank account linked to Aadhaar.",
+    "official_link": "https://jansuraksha.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 50,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "description": "Accident insurance scheme with ₹2 lakh cover at just ₹20/year.",
+    "ministry": "Ministry of Finance",
+    "benefits": "₹2 lakh accidental death/total disability cover. ₹1 lakh for partial disability. Only ₹20/year.",
+    "how_to_apply": "Enroll through bank or post office savings account.",
+    "official_link": "https://jansuraksha.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 70,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Agnipath Scheme (Agniveer)",
+    "description": "Short-term military service scheme for youth to serve in Indian Armed Forces for 4 years.",
+    "ministry": "Ministry of Defence",
+    "benefits": "₹30K–₹40K/month salary, ₹11.71 lakh Seva Nidhi package on exit, reservations in government jobs after service.",
+    "how_to_apply": "Apply at joinindianarmy.nic.in / joinindiannavy.gov.in / careerindianairforce.cdac.in",
+    "official_link": "https://agnipathscheme.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 23,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["unemployed", "student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 26,
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "description": "Promotes apprenticeship training by sharing 25% of stipend cost with employers.",
+    "ministry": "Ministry of Skill Development",
+    "benefits": "Stipend support, hands-on industry training, certificate recognised by NCVT.",
+    "how_to_apply": "Register at apprenticeshipindia.gov.in",
+    "official_link": "https://apprenticeshipindia.gov.in",
+    "eligibility": {
+      "min_age": 14,
+      "max_age": 35,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student", "unemployed"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Kisan Credit Card (KCC)",
+    "description": "Provides farmers with timely and adequate credit for agricultural needs at subsidised interest rates.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefits": "Credit up to ₹3 lakh at 4% interest rate after interest subvention. Includes crop insurance.",
+    "how_to_apply": "Apply at any bank or cooperative bank. Apply online at pmkisan.gov.in.",
+    "official_link": "https://pmkisan.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 75,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["farmer"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Soil Health Card Scheme",
+    "description": "Provides farmers with soil health cards showing nutrient status of soil and recommendations.",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "benefits": "Free soil testing, personalised fertiliser recommendations to reduce costs and increase yield.",
+    "how_to_apply": "Contact local Agriculture Department or soilhealth.dac.gov.in",
+    "official_link": "https://soilhealth.dac.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["farmer"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "description": "Skill and placement programme for rural youth to enable sustainable employment.",
+    "ministry": "Ministry of Rural Development",
+    "benefits": "Free residential skill training, 100% placement assistance, post-placement support.",
+    "how_to_apply": "Apply at ddugky.gov.in or district Rural Development office.",
+    "official_link": "https://ddugky.gov.in",
+    "eligibility": {
+      "min_age": 15,
+      "max_age": 35,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["unemployed", "student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 30,
+    "name": "MGNREGA (Mahatma Gandhi NREGA)",
+    "description": "Guarantees 100 days of wage employment per year to rural households whose adult members do unskilled manual work.",
+    "ministry": "Ministry of Rural Development",
+    "benefits": "100 days guaranteed employment per year. Current wages: ₹220–₹357/day depending on state.",
+    "how_to_apply": "Register at Gram Panchayat with household details.",
+    "official_link": "https://nrega.nic.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 200000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 31,
+    "name": "PM Garib Kalyan Anna Yojana (PMGKAY)",
+    "description": "Free food grain scheme providing 5 kg of rice/wheat per person per month to 80 crore beneficiaries.",
+    "ministry": "Ministry of Food & Public Distribution",
+    "benefits": "5 kg free food grain per month per person under NFSA.",
+    "how_to_apply": "Automatic for NFSA ration card holders. Apply for ration card at state FCS department.",
+    "official_link": "https://dfpd.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 150000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Scholarships for Top Class Education - SC",
+    "description": "Full scholarship for SC students admitted to top institutions like IITs, IIMs, NLUs, NITs.",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "benefits": "Full tuition fee + ₹2,220/month maintenance allowance. Covers 266 premier institutions.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 35,
+      "gender": "all",
+      "income_max": 600000,
+      "categories": ["sc"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Rajiv Gandhi National Fellowship (RGNF) - SC/ST",
+    "description": "Fellowship for SC/ST students to pursue MPhil and PhD in Indian universities.",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "benefits": "₹31,000/month (JRF) → ₹35,000/month (SRF). HRA and contingency allowance extra.",
+    "how_to_apply": "Apply at ugc.ac.in during notification period.",
+    "official_link": "https://rgnf.ucanapply.com",
+    "eligibility": {
+      "min_age": 20,
+      "max_age": 40,
+      "gender": "all",
+      "income_max": 600000,
+      "categories": ["sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Maulana Azad National Fellowship (MANF)",
+    "description": "Fellowship for minority community students to pursue higher education (MPhil/PhD).",
+    "ministry": "Ministry of Minority Affairs",
+    "benefits": "₹31,000–₹35,000/month fellowship + HRA + contingency.",
+    "how_to_apply": "Apply at manf.ucanapply.com",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 20,
+      "max_age": 40,
+      "gender": "all",
+      "income_max": 600000,
+      "categories": ["general", "obc"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 35,
+    "name": "PM Jan Arogya Yojana (State Variant)",
+    "description": "State-level health insurance schemes for residents not covered by PM-JAY.",
+    "ministry": "State Health Departments",
+    "benefits": "Health insurance cover ranging ₹2–10 lakh depending on state scheme.",
+    "how_to_apply": "Apply at state health department or Common Service Centre.",
+    "official_link": "https://pmjay.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 300000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 36,
+    "name": "AICTE Pragati Scholarship (Girls - Technical Education)",
+    "description": "Scholarship for girl students pursuing technical education (degree/diploma) to bridge gender gap.",
+    "ministry": "AICTE / Ministry of Education",
+    "benefits": "₹50,000/year for tuition + ₹30,000/year for incidentals. Max 4 years.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 30,
+      "gender": "female",
+      "income_max": 800000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 37,
+    "name": "AICTE Saksham Scholarship (Differently Abled)",
+    "description": "Scholarship for differently-abled students pursuing technical education.",
+    "ministry": "AICTE / Ministry of Education",
+    "benefits": "₹50,000/year tuition + ₹30,000/year incidentals for up to 4 years.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 30,
+      "gender": "all",
+      "income_max": 800000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Central Sector Scholarship for College Students",
+    "description": "Merit-based scholarship for students from economically weaker sections who cleared Class 12.",
+    "ministry": "Ministry of Education",
+    "benefits": "₹12,000/year for first 3 years of UG, ₹20,000/year for PG. ₹20,000/year for professional courses.",
+    "how_to_apply": "Apply at scholarships.gov.in",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 17,
+      "max_age": 25,
+      "gender": "all",
+      "income_max": 800000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Swachh Bharat Mission - Toilet Construction",
+    "description": "Financial assistance for construction of individual household toilets in rural areas.",
+    "ministry": "Ministry of Jal Shakti",
+    "benefits": "₹12,000 incentive for construction of household toilet.",
+    "how_to_apply": "Apply at Gram Panchayat or swachhbharatmission.gov.in",
+    "official_link": "https://swachhbharatmission.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 40,
+    "name": "PM Surya Ghar Muft Bijli Yojana",
+    "description": "Provides rooftop solar panels to households and 300 units free electricity per month.",
+    "ministry": "Ministry of New & Renewable Energy",
+    "benefits": "Up to 78% subsidy on solar installation. 300 units free electricity/month. Save ₹15,000–18,000/year.",
+    "how_to_apply": "Apply at pmsuryaghar.gov.in",
+    "official_link": "https://pmsuryaghar.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Har Ghar Jal - Jal Jeevan Mission",
+    "description": "Provides piped potable drinking water supply to every rural household by 2024.",
+    "ministry": "Ministry of Jal Shakti",
+    "benefits": "Piped water connection to home. 55 litres per person per day.",
+    "how_to_apply": "Contact Gram Panchayat or jaljeevanmission.gov.in",
+    "official_link": "https://jaljeevanmission.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 42,
+    "name": "PM Wani (Wi-Fi Access Network Interface)",
+    "description": "Provides public Wi-Fi hotspots across India, especially in rural areas through local shops.",
+    "ministry": "Ministry of Communications",
+    "benefits": "Affordable public Wi-Fi access. Local entrepreneurs can set up hotspots and earn income.",
+    "how_to_apply": "Contact DoT or nearby Public Data Office.",
+    "official_link": "https://dot.gov.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["entrepreneur", "small_business"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 43,
+    "name": "National Means-cum-Merit Scholarship (NMMS)",
+    "description": "Scholarship to meritorious students of economically weaker sections to reduce dropout at Class 8.",
+    "ministry": "Ministry of Education",
+    "benefits": "₹12,000/year (₹1,000/month) from Class 9 to 12.",
+    "how_to_apply": "Apply through state examination board. Exam held in November.",
+    "official_link": "https://scholarships.gov.in",
+    "eligibility": {
+      "min_age": 13,
+      "max_age": 16,
+      "gender": "all",
+      "income_max": 350000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 44,
+    "name": "PM Drone Didi Yojana",
+    "description": "Provides drones to Self-Help Groups (SHGs) of women for agricultural services.",
+    "ministry": "Ministry of Agriculture",
+    "benefits": "Drones provided to SHGs for rental services. Income of ₹1 lakh/year per SHG.",
+    "how_to_apply": "Apply through SHG federation or local agriculture department.",
+    "official_link": "https://agricoop.nic.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 60,
+      "gender": "female",
+      "income_max": 300000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["farmer", "self_employed"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 45,
+    "name": "DigiLocker",
+    "description": "Cloud-based platform for storage and sharing of documents/certificates in digital format.",
+    "ministry": "Ministry of Electronics & IT",
+    "benefits": "Free 1 GB secure cloud storage. Store Aadhaar, PAN, marksheets, driving licence digitally. Legally valid.",
+    "how_to_apply": "Register at digilocker.gov.in or DigiLocker app.",
+    "official_link": "https://digilocker.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 46,
+    "name": "One Nation One Ration Card",
+    "description": "Allows migrant workers to access their PDS ration from any Fair Price Shop across India.",
+    "ministry": "Ministry of Food & Public Distribution",
+    "benefits": "Access subsidised food grains from any FPS across India using existing ration card.",
+    "how_to_apply": "Existing ration card holders automatically eligible. Link Aadhaar to ration card.",
+    "official_link": "https://impds.nic.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 200000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 47,
+    "name": "UPI Lite & Rupay Credit on UPI",
+    "description": "Digital payment infrastructure for small transactions without internet connectivity.",
+    "ministry": "Ministry of Finance / NPCI",
+    "benefits": "Fast digital payments, cashback offers, zero MDR for merchants.",
+    "how_to_apply": "Available on any UPI app like BHIM, PhonePe, Google Pay.",
+    "official_link": "https://www.bhimupi.org.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 48,
+    "name": "PM Internship Scheme",
+    "description": "One-year internship opportunity with top 500 Indian companies for youth aged 21–24.",
+    "ministry": "Ministry of Corporate Affairs",
+    "benefits": "₹5,000/month stipend (₹4,500 from govt + ₹500 from company). ₹6,000 one-time grant. Certificate.",
+    "how_to_apply": "Apply at pminternship.mca.gov.in",
+    "official_link": "https://pminternship.mca.gov.in",
+    "eligibility": {
+      "min_age": 21,
+      "max_age": 24,
+      "gender": "all",
+      "income_max": 800000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["student", "unemployed"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Mahila Shakti Kendra",
+    "description": "Empowers rural women through community engagement and convergence of government schemes.",
+    "ministry": "Ministry of Women & Child Development",
+    "benefits": "Skill development, digital literacy, legal awareness, health & nutrition support for rural women.",
+    "how_to_apply": "Contact nearest Anganwadi or district Women & Child Development office.",
+    "official_link": "https://wcd.nic.in",
+    "eligibility": {
+      "min_age": 18,
+      "max_age": 99,
+      "gender": "female",
+      "income_max": 200000,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  },
+  {
+    "id": 50,
+    "name": "SMILE (Support for Marginalised Individuals for Livelihood and Enterprise)",
+    "description": "Comprehensive welfare scheme for transgender persons and persons engaged in begging.",
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "benefits": "Shelter, medical facilities, counselling, education, skill development, economic linkages.",
+    "how_to_apply": "Contact district Social Welfare office or transgenderindia.nic.in",
+    "official_link": "https://socialjustice.gov.in",
+    "eligibility": {
+      "min_age": 0,
+      "max_age": 99,
+      "gender": "all",
+      "income_max": 999999,
+      "categories": ["general", "obc", "sc", "st"],
+      "occupations": ["all"],
+      "states": "all"
+    }
+  }
+]
