@@ -4,11 +4,7 @@
 
 Most Indians are unaware of the hundreds of government schemes they qualify for. SchemeFind solves this by letting users enter their profile (age, gender, income, category, occupation) and instantly surfacing all matching schemes with benefits and application details.
 
----
 
-## 🚀 Live Demo
-
-_Coming soon — deploy on Vercel (frontend) + Render (backend)_
 
 ---
 
